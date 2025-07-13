@@ -17,13 +17,17 @@
         </header>
 
         <main>
-            <form id="poem-gen">
-                <input type="text" placeholder="Enter the topic of the poem" autofocus required class="intext"
-                    id="intext" />
-                <input type="submit" class="btn" />
-            </form>
-            <div class="poem" id="poem">
-                Poem...
+            <div class="form-container">
+                <form id="poem-gen">
+                    <input type="text" placeholder="Enter the topic of the poem" autofocus required class="intext"
+                        id="intext" />
+                    <input type="submit" class="btn" />
+                </form>
+                <div class="hint">i.e: Love , Flower, Earth</div>
+            </div>
+
+            <div class="poem hidden" id="poem">
+                Generating Poem...
             </div>
 
         </main>
